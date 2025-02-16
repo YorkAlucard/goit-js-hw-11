@@ -1,6 +1,6 @@
 import { getImage } from './js/pixabay-api.js';
 import errorIcon from './img/error.svg';
-import closeIcon from './img/close-icon.svg';
+import closeIcon from './img/close.svg';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
