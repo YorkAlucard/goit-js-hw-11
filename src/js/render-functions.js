@@ -2,10 +2,10 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import { iziOption } from '../main';
+import { iziOption } from '../main.js';
 
 export function markup(data) {
-  let { hits } = data;
+  const { hits } = data;
   const box = document.querySelector('.gallery');
 
   if (hits.length === 0) {

@@ -24,6 +24,7 @@ export function getImage(input) {
       }
       return response.json();
     })
+
     .then(data => {
       return markup(data);
     })
